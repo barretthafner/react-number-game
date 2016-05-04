@@ -221,9 +221,9 @@ var Game = React.createClass({
     this.replaceState(this.getInitialState())
   },
 
-  //get a random number between 1 and 9
+  //get a random number between 1 and 10
   randomNumber: function(){
-    return Math.floor(Math.random()*9) + 1;
+    return Math.floor(Math.random()*10) + 1;
   },
 
   //selectNumber setState function: adds a number to the selectedNumbers array
